@@ -1,0 +1,53 @@
+.userResults {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.table {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.table__row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 200px 200px .4fr;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a1a4aa7d;
+}
+
+.table__row_h { 
+    border-bottom: 1px solid #A1A4AA;
+}
+
+.table__hp {
+    width: 100%;
+    font-size: 18px;
+    color: #A1A4AA;
+    text-align: left;
+}
+
+.table__p {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+
+    border: 0;
+    outline: 0;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.downloadPdf {
+    color: #4D86A6;
+    font-size: 14px;
+    cursor: pointer;
+}

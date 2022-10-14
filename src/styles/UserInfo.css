@@ -1,0 +1,47 @@
+.userInfo {
+    width: 1140px;
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user__analysis {
+    font-size: 20px;
+    margin: 0;
+}
+
+.user__name {
+    font-size: 18px;
+    margin: 20px 0 30px;
+    font-weight: 400;
+}
+
+.user__data {
+    width: max-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.user__data-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user__data-row_d {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.user__more {
+    color: #4D86A6;
+    font-size: 14px;
+    cursor: pointer;
+}
