@@ -354,11 +354,11 @@ function App() {
     
     <div className="App">
       <Header />
-      <UserInfo />
+      {/* <UserInfo />
 
       <UserResults results={results} changeTheVal={changeTheVal} />
       <Diagnosis results={results} startSurvey={startSurvey} />
-      {surveyBlock && <Survey />}
+      {surveyBlock && <Survey />} */}
 
     </div>
   );
